@@ -67,6 +67,9 @@
 		04C3B5FF0AAF4630851704A0 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
 		10C00FBBD5E847ED990F3B6C /* ukf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ukf.cpp; path = src/ukf.cpp; sourceTree = SOURCE_ROOT; };
 		233B0ADAB6FE412DB336F008 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3DFE7EFF1F01B3470034C34B /* measurement_package.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = measurement_package.h; path = src/measurement_package.h; sourceTree = "<group>"; };
+		3DFE7F001F01B3470034C34B /* tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tools.h; path = src/tools.h; sourceTree = "<group>"; };
+		3DFE7F011F01B3470034C34B /* ukf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ukf.h; path = src/ukf.h; sourceTree = "<group>"; };
 		4218EDE00AC343EA85EC3E62 /* tools.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tools.cpp; path = src/tools.cpp; sourceTree = SOURCE_ROOT; };
 		60798F4FB6204DC58CF69D00 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 		63A01ADC04D74BDEA94C003B /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
@@ -110,6 +113,9 @@
 		A99D0C022E3A413D80A37307 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
+				3DFE7EFF1F01B3470034C34B /* measurement_package.h */,
+				3DFE7F001F01B3470034C34B /* tools.h */,
+				3DFE7F011F01B3470034C34B /* ukf.h */,
 				04C3B5FF0AAF4630851704A0 /* main.cpp */,
 				4218EDE00AC343EA85EC3E62 /* tools.cpp */,
 				10C00FBBD5E847ED990F3B6C /* ukf.cpp */,
