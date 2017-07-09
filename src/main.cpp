@@ -50,9 +50,10 @@ int main()
       if (s != "") {
       	
         auto j = json::parse(s);
-
-        std::string event = j[0].get<std::string>();
         
+      
+        std::string event = j[0].get<std::string>();
+      
         if (event == "telemetry") {
           // j[1] is the data JSON object
           
@@ -60,7 +61,7 @@ int main()
           
           MeasurementPackage meas_package;
           istringstream iss(sensor_measurment);
-    	  long long timestamp;
+          long long timestamp;
 
     	  // reads first element from the current line
     	  string sensor_type;
@@ -137,7 +138,7 @@ int main()
           msgJson["rmse_vx"] = RMSE(2);
           msgJson["rmse_vy"] = RMSE(3);
           auto msg = "42[\"estimate_marker\"," + msgJson.dump() + "]";
-          // std::cout << msg << std::endl;
+          std::cout << msg << std::endl;
           ws.send(msg.data(), msg.length(), uWS::OpCode::TEXT);
 	  
         }
